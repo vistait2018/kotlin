@@ -19,4 +19,13 @@ fun main(args:Array<String>){
         7 ->{print("value is Sunday")}
         else ->{print("value out of range")}
     }
+
+
+    var age = 50;
+    var isYoung = when(age){
+        50->true
+        else->false
+    }
+
+    print("My age is : $age and it is $isYoung")
 }
